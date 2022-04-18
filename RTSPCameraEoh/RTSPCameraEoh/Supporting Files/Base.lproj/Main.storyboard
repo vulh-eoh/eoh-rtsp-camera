@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="1q3-6w-6up">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--One Player-->
+        <scene sceneID="RPD-Z3-4EA">
+            <objects>
+                <viewController storyboardIdentifier="PlayerViewController" id="CfX-9J-flq" userLabel="One Player" customClass="PlayerViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="zDB-Ye-47c">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BA4-Iu-4YN">
+                                <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                                <color key="tintColor" red="1" green="0.57810515169999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="barTintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <textAttributes key="titleTextAttributes">
+                                    <color key="textColor" red="1" green="0.57810515169999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </textAttributes>
+                                <items>
+                                    <navigationItem title="Player" id="HQ0-jQ-chJ"/>
+                                </items>
+                            </navigationBar>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="lSo-yc-5w6"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="lSo-yc-5w6" firstAttribute="trailing" secondItem="BA4-Iu-4YN" secondAttribute="trailing" id="Fa9-7M-4FH"/>
+                            <constraint firstItem="BA4-Iu-4YN" firstAttribute="top" secondItem="lSo-yc-5w6" secondAttribute="top" id="Z60-bJ-fM8"/>
+                            <constraint firstItem="BA4-Iu-4YN" firstAttribute="leading" secondItem="lSo-yc-5w6" secondAttribute="leading" id="biY-DN-l40"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Player" id="XO6-Aw-DKO" userLabel="Gird Player"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="sT8-dH-sFU" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1039" y="144"/>
+        </scene>
+        <!--Gird Player-->
+        <scene sceneID="REy-OT-r4X">
+            <objects>
+                <viewController storyboardIdentifier="GirdPlayerViewController" id="Vjs-Uq-pYt" userLabel="Gird Player" customClass="GirdPlayerViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5oK-TJ-C0e">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1yT-R5-2VN">
+                                <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                                <color key="barTintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <textAttributes key="titleTextAttributes">
+                                    <color key="textColor" red="1" green="0.57810515169999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </textAttributes>
+                                <items>
+                                    <navigationItem title="Gird Player" id="yF3-45-sfX"/>
+                                </items>
+                            </navigationBar>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="ju4-2I-a9r"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="1yT-R5-2VN" firstAttribute="top" secondItem="ju4-2I-a9r" secondAttribute="top" id="GS1-ov-Qsz"/>
+                            <constraint firstItem="ju4-2I-a9r" firstAttribute="trailing" secondItem="1yT-R5-2VN" secondAttribute="trailing" id="WoX-ZR-WY7"/>
+                            <constraint firstItem="1yT-R5-2VN" firstAttribute="leading" secondItem="ju4-2I-a9r" secondAttribute="leading" id="khD-JJ-MNR"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Gird Player" id="Jg5-Rz-5sj" userLabel="Player">
+                        <color key="badgeColor" systemColor="tintColor"/>
+                    </tabBarItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="UGt-bF-a2a" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1076" y="913"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="vpZ-Vb-OJS">
+            <objects>
+                <tabBarController id="1q3-6w-6up" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="9kM-nK-gRy">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="CfX-9J-flq" kind="relationship" relationship="viewControllers" id="vK8-lo-OIq"/>
+                        <segue destination="Vjs-Uq-pYt" kind="relationship" relationship="viewControllers" id="jKj-no-no2"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1CB-zS-Qrg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1969" y="608"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="tintColor">
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
