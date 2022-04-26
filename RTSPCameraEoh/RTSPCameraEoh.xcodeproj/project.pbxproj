@@ -801,7 +801,7 @@
 					"\"$(SRCROOT)/RTSPCameraEoh/CoreCameraEoh.framework\"",
 					"$(PROJECT_DIR)/RTSPCameraEoh/CoreCameraEoh.framework/Headers",
 				);
-				GCC_PREFIX_HEADER = /Users/a/Desktop/BuildFrameworkCameraEoh/RTSPCameraEoh/RTSPCameraEoh/CoreCameraEoh.framework/Headers/PrefixHeader.pch;
+				GCC_PREFIX_HEADER = RTSPCameraEoh/CoreCameraEoh.framework/Headers/PrefixHeader.pch;
 				GENERATE_INFOPLIST_FILE = YES;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
@@ -860,7 +860,7 @@
 					"\"$(SRCROOT)/RTSPCameraEoh/CoreCameraEoh.framework\"",
 					"$(PROJECT_DIR)/RTSPCameraEoh/CoreCameraEoh.framework/Headers",
 				);
-				GCC_PREFIX_HEADER = /Users/a/Desktop/BuildFrameworkCameraEoh/RTSPCameraEoh/RTSPCameraEoh/CoreCameraEoh.framework/Headers/PrefixHeader.pch;
+				GCC_PREFIX_HEADER = RTSPCameraEoh/CoreCameraEoh.framework/Headers/PrefixHeader.pch;
 				GENERATE_INFOPLIST_FILE = YES;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
